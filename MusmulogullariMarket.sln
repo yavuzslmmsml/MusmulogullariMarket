@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusmulogullariMarket.Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusmulogullariMarket.Infrastructure", "MusmulogullariMarket.Infrastructure\MusmulogullariMarket.Infrastructure.csproj", "{749F04A2-AADD-48DF-85D1-9BBA2173D012}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusmulogullariMarket.API", "MusmulogullariMarket.API\MusmulogullariMarket.API.csproj", "{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{749F04A2-AADD-48DF-85D1-9BBA2173D012}.Release|x64.Build.0 = Release|Any CPU
 		{749F04A2-AADD-48DF-85D1-9BBA2173D012}.Release|x86.ActiveCfg = Release|Any CPU
 		{749F04A2-AADD-48DF-85D1-9BBA2173D012}.Release|x86.Build.0 = Release|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Release|x64.Build.0 = Release|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD65E79D-BF89-460D-BDDA-3FE76391AAA8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
