@@ -12,4 +12,5 @@ public class AppDbContext : DbContext
 
     // Şimdilik örnek
     public DbSet<Product> Products => Set<Product>();
+    public DbSet<Category> Categories => Set<Category>();
 }
