@@ -12,6 +12,9 @@ public class Product : BaseEntity
     public Guid CategoryId { get; private set; }
     public Category Category { get; private set; }
 
+    // (İleride ekleyeceğiz ama şimdiden hazırlık)
+    public ICollection<ProductImage> Images { get; private set; } = new List<ProductImage>();
+
     private Product() { } // EF Core
 
     public Product(
@@ -32,6 +35,20 @@ public class Product : BaseEntity
         Price = price;
         Stock = stock;
         CategoryId = categoryId;
+    }
+
+    public void Update(string name, string description, decimal price, int stock)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            throw new ArgumentException("Product name cannot be empty");
+
+        if (price <= 0)
+            throw new ArgumentException("Price must be greater than zero");
+
+        Name = name;
+        Description = description;
+        Price = price;
+        Stock = stock;
     }
 
     public void UpdatePrice(decimal newPrice)

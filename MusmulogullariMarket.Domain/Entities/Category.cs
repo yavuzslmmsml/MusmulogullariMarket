@@ -15,4 +15,9 @@ public class Category : BaseEntity
 
         Name = name;
     }
+
+    public void UpdateName(string name)
+    {
+        Name = name;
+    }
 }
